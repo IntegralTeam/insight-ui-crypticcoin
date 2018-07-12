@@ -1,8 +1,11 @@
 {
-  "name": "insight-ui-zcash",
-  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the zcash network and build your own services with it.",
+  "name": "insight-ui-crypticcoin",
+  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the CrypticCoin network and build your own services with it.",
   "version": "0.4.0",
-  "repository": "git://github.com/zcash-hackworks/insight-ui-zcash.git",
+  "repository": {
+    "type": "git",
+    "url": "https://git.sfxdx.ru/cryptic/insight-ui-crypticcoin.git"
+  },
   "contributors": [
     {
       "name": "Matias Alejo Garcia",
@@ -33,20 +36,16 @@
       "email": "simon@z.cash"
     }
   ],
-  "bugs": {
-    "url": "https://github.com/zcash-hackworks/insight-ui-zcash/issues"
-  },
-  "homepage": "https://github.com/zcash-hackworks/insight-ui-zcash",
   "license": "MIT",
   "keywords": [
     "insight",
     "blockchain",
     "blockexplorer",
-    "zcash",
+    "crypticcoin",
     "bitcore",
     "front-end"
   ],
-  "bitcoreNode": "bitcore-node-zcash",
+  "bitcoreNode": "bitcore-node-crypticcoin",
   "dependencies": {
   },
   "devDependencies": {
