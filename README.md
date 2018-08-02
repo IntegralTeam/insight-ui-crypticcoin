@@ -19,7 +19,7 @@ bitcore-node install insight-ui
 bitcore-node start
 ```
 
-Open a web browser to `http://localhost:3001/`
+Open a web browser to `http://localhost:80/`
 
 ## Development
 
