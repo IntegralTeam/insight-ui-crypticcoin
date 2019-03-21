@@ -84,6 +84,10 @@
             <td><strong translate>Previous Block</strong></td>
             <td class="text-right"><a href="block/{{block.previousblockhash}}">{{block.height-1}}</a></td>
           </tr>
+	  <tr data-ng-show="block.version >= 5">
+            <td><strong>Round</strong></td>
+            <td class="text-right text-muted"><span>{{block.round || 'N/A'}}</span></td>
+          </tr>
           </tbody>
         </table>
       </div>

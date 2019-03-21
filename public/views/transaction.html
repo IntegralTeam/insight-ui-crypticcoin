@@ -99,6 +99,10 @@
           <td><strong>Expiry Height</strong></td>
           <td class="text-muted text-right">{{tx.nExpiryHeight}}</td>
         </tr>
+        <tr data-ng-show="tx.fOverwintered">
+          <td><strong>Instant</strong></td>
+          <td class="text-muted text-right">{{tx.fInstant}}</td>
+        </tr>
         <!-- Overwinter END -->
 
         <tr data-ng-show="tx.isCoinBase">
