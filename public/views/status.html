@@ -31,10 +31,6 @@
             </span>
           </td>
           </tr>
-          <tr>
-            <td translate>Start Date</td>
-            <td class="text-right"><time title="{{sync.startTs | date:'medium'}}">{{humanSince(sync.startTs)}}</time></td>
-          </tr>
           <tr data-ng-show="sync.endTs">
             <td translate>Finish Date</td>
             <td class="text-right"><time title="{{sync.startTs | date:'medium'}}" >{{humanSince(sync.endTs)}}</time></td>
@@ -42,18 +38,6 @@
           <tr>
             <td translate>Initial Block Chain Height</td>
             <td class="text-right">{{sync.blockChainHeight}}</td>
-          </tr>
-          <tr>
-            <td translate>Synced Blocks</td>
-            <td class="text-right">{{sync.syncedBlocks}}</td>
-          </tr>
-          <tr>
-            <td translate>Skipped Blocks (previously synced)</td>
-            <td class="text-right">{{sync.skippedBlocks}}</td>
-          </tr>
-          <tr>
-            <td translate>Sync Type</td>
-            <td class="text-right">{{sync.type}}</td>
           </tr>
         </tbody>
       </table>
@@ -113,10 +97,6 @@
             <td translate>dPoS</td>
             <td class="text-right">{{info.dpos ? 'active' : 'inactive'}}</td>
           <tr>
-            <td translate>Time Offset</td>
-            <td class="text-right">{{info.timeoffset}}</td>
-          </tr>
-          <tr>
             <td translate>Connections to other nodes</td>
             <td class="text-right">{{info.connections}}</td>
           </tr>
@@ -127,10 +107,6 @@
           <tr>
             <td translate>Network</td>
             <td class="text-right">{{info.network}}</td>
-          </tr>
-          <tr>
-            <td translate>Proxy setting</td>
-            <td class="text-right">{{info.proxy}}</td>
           </tr>
           <tr>
             <td translate>Info Errors</td>
